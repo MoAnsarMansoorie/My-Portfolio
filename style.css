@@ -185,3 +185,49 @@
     font-weight: bold;
     color:red;
 }
+
+
+@media screen and (max-width:768px) {
+    .nav-item{
+        display: none;
+    }
+
+    .hero-section{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .hero-image img{
+        margin-top: 2rem;
+        margin-left: 1rem;
+    }
+
+    .project-container{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .cont{
+        margin-left: -22rem;
+    }
+
+    .contact-email{
+        margin-left: -22rem;
+    }
+
+    .email-link{
+        margin-left: -25rem;
+    }
+
+    .contact-mobile{
+        margin-left: -22rem;
+    }
+
+    .mobile-number{
+        margin-left: -25rem;
+    }
+
+    .thank{
+        margin-left: 2rem;
+    }
+}
