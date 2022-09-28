@@ -188,6 +188,10 @@
 
 
 @media screen and (max-width:768px) {
+    .body-container{
+        width: 100%;
+    }
+
     .nav-item{
         display: none;
     }
