@@ -147,7 +147,7 @@
 .contact-email h1{
     margin-top: 25px;
     margin-left: 430px;
-    color: aqua;
+    color: red;
 }
 
 .email-link a{
@@ -166,7 +166,7 @@
 .contact-mobile h1{
     margin-top: 15px;
     margin-left: 400px;
-    color: aqua;
+    color: red;
 }
 
 .mobile-number a{
@@ -177,9 +177,34 @@
     
 }
 
+.project-deploy-link:hover{
+    background-color: aqua;
+}
+
+.project-deploy-link a:hover{
+    color: blue;
+}
+
+.project-live-link:hover{
+    background-color: aqua;
+}
+
+.project-live-link a:hover{
+    color: blue;
+}
+
+
+.hero-image img{
+    border-radius: 50% 50%;
+}
+
+.b-container{
+    background-color: aqua;
+}
+
 
 .thank{
-    margin-left: 450px;
+    margin-left: 650px;
     margin-top: 45px;
     font-size: 65px;
     font-weight: bold;
@@ -189,7 +214,7 @@
 
 @media screen and (max-width:768px) {
     .body-container{
-        width: 100%;
+        margin: auto;
     }
 
     .nav-item{
@@ -210,6 +235,8 @@
         display: flex;
         flex-direction: column;
     }
+
+    
 
     .cont{
         margin-left: -22rem;
